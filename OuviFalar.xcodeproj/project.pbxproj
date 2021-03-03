@@ -11,7 +11,6 @@
 		0CAEB279257ACA82003091FC /* SearchingBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAEB278257ACA82003091FC /* SearchingBank.swift */; };
 		0CCC36D2257AC73700FD0454 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC36D1257AC73700FD0454 /* AppDelegate.swift */; };
 		0CCC36D4257AC73700FD0454 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC36D3257AC73700FD0454 /* SceneDelegate.swift */; };
-		0CCC36D6257AC73700FD0454 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC36D5257AC73700FD0454 /* ContentView.swift */; };
 		0CCC36D9257AC73700FD0454 /* OuviFalar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC36D7257AC73700FD0454 /* OuviFalar.xcdatamodeld */; };
 		0CCC36DB257AC74100FD0454 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC36DA257AC74100FD0454 /* Assets.xcassets */; };
 		0CCC36DE257AC74100FD0454 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC36DD257AC74100FD0454 /* Preview Assets.xcassets */; };
@@ -37,6 +36,10 @@
 		857EAF3E257D539100D0014E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC36DA257AC74100FD0454 /* Assets.xcassets */; };
 		ACFC5E90257ACDC700881712 /* PositiveResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5E8F257ACDC700881712 /* PositiveResultCard.swift */; };
 		ACFC5E94257AD73B00881712 /* NegativeResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC5E93257AD73B00881712 /* NegativeResultCard.swift */; };
+		C1AC2EED25EE612D00502881 /* MainModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC2EEC25EE612D00502881 /* MainModifier.swift */; };
+		C1AC2EF325EE628E00502881 /* NavigationViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC2EF225EE628E00502881 /* NavigationViewModifier.swift */; };
+		C1AC2EF725EE62ED00502881 /* PickerModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC2EF625EE62ED00502881 /* PickerModifier.swift */; };
+		C1AC2F0225EE645C00502881 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AC2F0125EE645C00502881 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +72,6 @@
 		0CCC36CE257AC73700FD0454 /* OuviFalar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OuviFalar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CCC36D1257AC73700FD0454 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CCC36D3257AC73700FD0454 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0CCC36D5257AC73700FD0454 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CCC36D8257AC73700FD0454 /* OuviFalar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OuviFalar.xcdatamodel; sourceTree = "<group>"; };
 		0CCC36DA257AC74100FD0454 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CCC36DD257AC74100FD0454 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -91,6 +93,10 @@
 		35DACB34257D1074009D4A60 /* OuviFalar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OuviFalar.entitlements; sourceTree = "<group>"; };
 		ACFC5E8F257ACDC700881712 /* PositiveResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositiveResultCard.swift; sourceTree = "<group>"; };
 		ACFC5E93257AD73B00881712 /* NegativeResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegativeResultCard.swift; sourceTree = "<group>"; };
+		C1AC2EEC25EE612D00502881 /* MainModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModifier.swift; sourceTree = "<group>"; };
+		C1AC2EF225EE628E00502881 /* NavigationViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModifier.swift; sourceTree = "<group>"; };
+		C1AC2EF625EE62ED00502881 /* PickerModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModifier.swift; sourceTree = "<group>"; };
+		C1AC2F0125EE645C00502881 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,19 +139,11 @@
 			isa = PBXGroup;
 			children = (
 				35DACB34257D1074009D4A60 /* OuviFalar.entitlements */,
-				0CCC36E9257AC82D00FD0454 /* Views */,
-				0CCC36D1257AC73700FD0454 /* AppDelegate.swift */,
-				35DACB11257C2E6D009D4A60 /* View+ResignKeyboard.swift */,
-				0CAEB278257ACA82003091FC /* SearchingBank.swift */,
-				0CCC36D3257AC73700FD0454 /* SceneDelegate.swift */,
-				0CCC36D5257AC73700FD0454 /* ContentView.swift */,
-				353EDF6A257DC67A00A2D528 /* TweetIntentClassifier.mlmodel */,
-				353EDF6F257DC68000A2D528 /* TweetDesinfoClassifier.mlmodel */,
-				353EDF65257DC5FA00A2D528 /* ClassifierPlayground.playground */,
-				0CCC36DA257AC74100FD0454 /* Assets.xcassets */,
-				0CCC36DF257AC74100FD0454 /* LaunchScreen.storyboard */,
 				0CCC36E2257AC74100FD0454 /* Info.plist */,
-				0CCC36D7257AC73700FD0454 /* OuviFalar.xcdatamodeld */,
+				C1AC2F0725EE646000502881 /* Models */,
+				C1AC2EFF25EE642D00502881 /* Global */,
+				C1AC2EFC25EE63F800502881 /* Assets */,
+				0CCC36E9257AC82D00FD0454 /* Views */,
 				0CCC36DC257AC74100FD0454 /* Preview Content */,
 			);
 			path = OuviFalar;
@@ -162,10 +160,10 @@
 		0CCC36E9257AC82D00FD0454 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0CD0B4F8257AC95600F2005E /* WaitingRoomView */,
 				0CD0B4FF257AC9C400F2005E /* OnboardingView */,
 				0CD0B4FE257AC9B400F2005E /* ResultView */,
 				0CD0B4FD257AC9A300F2005E /* SearchView */,
-				0CD0B4F8257AC95600F2005E /* WaitingRoomView */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +180,7 @@
 		0CD0B4FD257AC9A300F2005E /* SearchView */ = {
 			isa = PBXGroup;
 			children = (
+				C1AC2EEB25EE611D00502881 /* ViewModifiers */,
 				0CD0B4EE257AC8CD00F2005E /* SearchView.swift */,
 			);
 			path = SearchView;
@@ -214,6 +213,56 @@
 				35DACB27257D083D009D4A60 /* Info.plist */,
 			);
 			path = SharedExtension;
+			sourceTree = "<group>";
+		};
+		C1AC2EEB25EE611D00502881 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC2EEC25EE612D00502881 /* MainModifier.swift */,
+				C1AC2EF225EE628E00502881 /* NavigationViewModifier.swift */,
+				C1AC2EF625EE62ED00502881 /* PickerModifier.swift */,
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		C1AC2EFC25EE63F800502881 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				353EDF6A257DC67A00A2D528 /* TweetIntentClassifier.mlmodel */,
+				353EDF6F257DC68000A2D528 /* TweetDesinfoClassifier.mlmodel */,
+				353EDF65257DC5FA00A2D528 /* ClassifierPlayground.playground */,
+				0CCC36DA257AC74100FD0454 /* Assets.xcassets */,
+				0CCC36DF257AC74100FD0454 /* LaunchScreen.storyboard */,
+				0CCC36D7257AC73700FD0454 /* OuviFalar.xcdatamodeld */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C1AC2EFF25EE642D00502881 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				0CCC36D1257AC73700FD0454 /* AppDelegate.swift */,
+				0CAEB278257ACA82003091FC /* SearchingBank.swift */,
+				0CCC36D3257AC73700FD0454 /* SceneDelegate.swift */,
+				C1AC2F0025EE643400502881 /* Modifiers */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		C1AC2F0025EE643400502881 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				35DACB11257C2E6D009D4A60 /* View+ResignKeyboard.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		C1AC2F0725EE646000502881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C1AC2F0125EE645C00502881 /* History.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,14 +367,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AC2F0225EE645C00502881 /* History.swift in Sources */,
 				0CCC36D2257AC73700FD0454 /* AppDelegate.swift in Sources */,
+				C1AC2EED25EE612D00502881 /* MainModifier.swift in Sources */,
 				0CCC36D4257AC73700FD0454 /* SceneDelegate.swift in Sources */,
-				0CCC36D6257AC73700FD0454 /* ContentView.swift in Sources */,
 				353EDF70257DC68000A2D528 /* TweetDesinfoClassifier.mlmodel in Sources */,
 				353EDF6B257DC67A00A2D528 /* TweetIntentClassifier.mlmodel in Sources */,
+				C1AC2EF725EE62ED00502881 /* PickerModifier.swift in Sources */,
 				0CD0B4FA257AC96C00F2005E /* WaitingRoomView.swift in Sources */,
 				ACFC5E90257ACDC700881712 /* PositiveResultCard.swift in Sources */,
 				0CD0B4F3257AC8EF00F2005E /* OnboardingView.swift in Sources */,
+				C1AC2EF325EE628E00502881 /* NavigationViewModifier.swift in Sources */,
 				0CD0B4EF257AC8CD00F2005E /* SearchView.swift in Sources */,
 				0CD0B4F6257AC90700F2005E /* ResultView.swift in Sources */,
 				0C1404BA257AE21000716069 /* WaitingRoomIcons.swift in Sources */,
@@ -508,14 +560,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"OuviFalar/Preview Content\"";
-				DEVELOPMENT_TEAM = P63952MS7L;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = OuviFalar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -532,14 +584,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"OuviFalar/Preview Content\"";
-				DEVELOPMENT_TEAM = P63952MS7L;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = OuviFalar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,14 +604,14 @@
 				CODE_SIGN_ENTITLEMENTS = SharedExtension/SharedExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = P63952MS7L;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
 				INFOPLIST_FILE = SharedExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar.SharedExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar2.SharedExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -573,14 +625,14 @@
 				CODE_SIGN_ENTITLEMENTS = SharedExtension/SharedExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = P63952MS7L;
+				DEVELOPMENT_TEAM = 2529YUQTU2;
 				INFOPLIST_FILE = SharedExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar.SharedExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = br.ufpe.academy.OuviFalar2.SharedExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;

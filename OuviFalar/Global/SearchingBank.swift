@@ -8,6 +8,7 @@
 import Foundation
 import NaturalLanguage
 import SwiftUI
+
 class SearchingBank: ObservableObject {
     
     @Published var searchItem: Search?
@@ -15,11 +16,8 @@ class SearchingBank: ObservableObject {
     init(){
         
     }
-    
-    
-    
-    
 }
+
 enum Intent: String{
     case favor
     case contra

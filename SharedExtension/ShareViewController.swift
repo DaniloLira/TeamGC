@@ -42,7 +42,7 @@ class ShareViewController: UIViewController, ShareViewDelegate {
     }
     
     private func save(_ value: Any, key: String) {
-        let userDefaults = UserDefaults(suiteName: "group.br.ufpe.academy.OuviFalar")
+        let userDefaults = UserDefaults(suiteName: "group.br.ufpe.academy.OuviFalar2")
         userDefaults!.set(value, forKey: key)
         print(userDefaults?.string(forKey: key) as Any)
         searchItem = Search(text: (userDefaults?.string(forKey: key))!, delegate: self)
@@ -52,13 +52,12 @@ class ShareViewController: UIViewController, ShareViewDelegate {
             waitingRoomView.view.translatesAutoresizingMaskIntoConstraints = false
             
             self.view.addSubview(waitingRoomView.view)
-            
             let constraints = [
                 waitingRoomView.view.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor, constant: 0),
                 waitingRoomView.view.centerXAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerXAnchor, constant: 0),
                 waitingRoomView.view.leadingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leadingAnchor, constant: 0),
                 waitingRoomView.view.trailingAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.trailingAnchor, constant: 0),
-                waitingRoomView.view.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: 0)
+                waitingRoomView.view.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor, constant: 0),
             ]
             NSLayoutConstraint.activate(constraints)
         }
